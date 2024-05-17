@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Form</title>
+    <link rel="stylesheet" href="alert-form.css">
+    <script src="alert-form.js"></script>
+</head>
+<body>
+    <div class="form">
+
+        <button class="btn" onclick="alertMyForm()">Sign Up</button>
+        <form class="form-container">
+            <div class="upper-content">
+                <div class="logo">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                </div>
+                <h1>Singn Up</h1>
+            </div>
+            <label class="text" >
+                Name
+                <div class="text-input">
+                    <input type="text" class="name" id="first" placeholder="First">
+                    <input type="text" class="name" id="last" placeholder="Last">
+
+                </div>
+            </label>
+            <label class="text">
+                Email
+                <input type="email" class="email" id="email">
+            </label>
+            <label class="text">
+                Leave us few words
+                <input type="text" class="through" id="through" >
+            </label>
+
+            <button class="btn1">Sign up</button>
+        </form>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
